@@ -1,0 +1,36 @@
+.universities{
+    padding: 40px;
+    background: #FAFAFA;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.universities h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px; 
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #373737;
+    mix-blend-mode: normal;
+    opacity: 0.73;
+    margin-bottom: 86px;
+}
+.universities .slider{
+    margin-top: 20px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+@media only screen and (max-width: 480px) {
+    .hero .hero-img img{
+            display: none;
+    }
+    .hero .hero-content {
+        width: 100%;
+    }
+}

@@ -1,0 +1,40 @@
+   .footer {
+       background-color: #717cff;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 18px;
+       line-height: 32px;
+       color: #EEEEEE;
+       padding: 60px 0;
+   }
+
+   .footer-left , .footer-second, .footer-third{
+       display: flex;
+       flex-direction: column;
+       gap: 25px;
+   }
+   .footer-second a, .footer-third a{
+    text-decoration: none;
+    color: #EEEEEE;
+   }
+   .footer-last{
+    align-self: flex-end;
+    display: flex;
+    gap:20px
+   }
+@media only screen and (max-width: 480px) {
+   .footer {
+    gap:40px ;
+   }
+}
+@media only screen and (max-width: 600px){
+    .footer {
+        gap:20px ;
+        
+       }
+}
