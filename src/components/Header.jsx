@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import "../styles/header.css"
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
+import logo from "../assets/logo.png"
+
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -15,7 +17,7 @@ function Header() {
     
         <div className='header '>
          
-      <img src='/' alt='logo' />
+      <img src={logo} alt='logo' />
       <div className='nav'>
         {/* <AiOutlineClose size={25} color='white' className='close' onClick={handleMenuToggle} /> */}
         <a href="/">Home</a>
