@@ -1,88 +1,48 @@
 import React from "react";
 import Slider from "react-slick";
 import "../styles/testimonial.css";
+import t1 from "../assets/t1.jpg"
+import t2 from "../assets/t2.jpg"
+import t3 from "../assets/t3.jpg"
+import t4 from "../assets/t4.jpg"
 function Testimonial() {
   const data = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/943235/pexels-photo-943235.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "Nishu Malik",
+      img: t1,
+      title: "Sachin Moond",
       desig: "reporter",
-      desc: "Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.",
+      desc: "As a student searching for options to pursue MBBS abroad,they were  lifesaver. Their comprehensive and up-to-date information made the whole process much simpler and stress-free",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/10057618/pexels-photo-10057618.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "Nishu Malik",
+      img: t2,
+      title: "Manish Choudhary",
       desig: "reporter",
-      desc: "Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.",
+      desc: "I would highly recommend Dream Education Consultancy to anyone looking for guidance on studying MBBS abroad. Their team is knowledgeable, friendly, and always willing to help",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=600",
+      img: t4,
       title: "Nishu Malik",
       desig: "reporter",
-      desc: "Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.",
+      desc: "Thanks to DEC, I was able to find the perfect university to study MBBS abroad. Their user-friendly website and expert advice made the entire process a breeze",
     },
     {
       id: 4,
-      img: "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "Nishu Malik",
+      img: t3,
+      title: "Karan Yadav",
       desig: "reporter",
-      desc: "Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.",
+      desc: "Studying MBBS abroad is a big decision, but they provides all the necessary resources and support to help students navigate the process with confidence and ease.",
     },
-    {
-      id: 5,
-      img: "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "manish kumar",
-      desig: "reporter",
-      desc: "Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.",
-    },
+ 
   ];
-  var settings = {
-    dots: false,
-    infinite: true,
-    autoplay:true,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
-    speed: 500,
-    arrows:false,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+ 
   return (
     <div className="testimonial " id="testimonial">
       <h1>Testimonial</h1>
       <h4>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-        perspiciatis qui ut cumque laboriosam, aperiam dolore possimus saepe
-        libero asperiores!
+      Choosing the right university to study MBBS abroad can be daunting. We provides valuable resources and guidance to help students make informed decisions and pursue their dreams.
       </h4>
       <div className="list" >
         {data.map((item) => {
@@ -93,7 +53,7 @@ function Testimonial() {
                 <img src={img} alt="country" />
                 <div className="item-content">
                   <h2>{title}</h2>
-                  <p>{desig}</p>
+                  <p>Student</p>
                 </div>
               </div>
               <p>{desc}</p>

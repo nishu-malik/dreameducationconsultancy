@@ -1,11 +1,12 @@
 import React from 'react'
 import '../styles/footer.css'
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import logo from "../assets/logo.png"
 function Foter() {
   return (
     <div className='footer'>
         <div className='footer-left'>
-            <img src="/" about='logo' />
+            <img src={logo} about='logo' />
             <div className='footer-add'>
                 Health care path lab, Mandawa Modh
                 <br />
@@ -26,9 +27,9 @@ function Foter() {
             <a href="#countries">Countries</a>
         </div>
         <div className='footer-last'>
-            <FaFacebookF />
-            <FaTwitter />
-            <FaInstagram />
+           <a href='https://m.facebook.com/people/Dream-education-consultancy/100083636111407/'  > <FaFacebookF /></a>
+           <a href='' >  <FaTwitter /></a>
+           <a href='https://www.instagram.com/dreameducation_consultancy/' >   <FaInstagram /></a>
         </div>
       
     </div>

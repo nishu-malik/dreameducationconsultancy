@@ -26,6 +26,9 @@
     padding-bottom: 40px;
     align-items: center;
 }
+.universities .slider div a img{
+   height: 150px;
+}
 @media only screen and (max-width: 480px) {
     .hero .hero-img img{
             display: none;

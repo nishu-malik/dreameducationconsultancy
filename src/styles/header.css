@@ -5,6 +5,9 @@
     align-items: center;
 }
 
+.header img{
+    width: 100px;
+}
 .header .nav{
     display: flex;
     flex: 0.8;
@@ -18,6 +21,10 @@ font-style: normal;
 font-weight: 500;
 font-size: 17px;
 color: #373737;
+}
+.header .nav a:hover{
+    padding-bottom: 4px;
+    border-bottom: 2px solid #717CFF;
 }
 .header .nav .btn-contact{
     border: 2px solid #717CFF;

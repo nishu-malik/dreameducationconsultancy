@@ -4,25 +4,25 @@ function Services() {
     const data = [
         {
             title : "Career Counselling",
-            desc : "Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. Iure et consectetur dolorem dicta accusantium fugiat."
+            desc : "Offering advice on the various postgraduate training options available, including residency programs, fellowship opportunities, and research fellowships."
         },
         {
             title : "University Admissions",
-            desc : "Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. Iure et consectetur dolorem dicta accusantium fugiat."
+            desc : "Assisting with the selection of a university and program that aligns with the student's career goals and interests, taking into account factors such as location, academic offerings, and campus culture."
         },
         {
             title : "Visa Consultancy",
-            desc : "Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. Iure et consectetur dolorem dicta accusantium fugiat."
+            desc : "Providing guidance on the visa application process for studying abroad, including documentation required for successful visa application."
         },
         {
             title : "Accodomation",
-            desc : "Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. Iure et consectetur dolorem dicta accusantium fugiat."
+            desc : "Providing guidance on different types of accommodation options available to students, including on-campus housing, private rentals, homestays, and hostels."
         },
     ]
   return (
     <div className='services ' id='services'> 
       <h1>Our Services</h1>
-      <h4>Executive Trade International is an University Application Centre, guiding Indian students to Australian, British, Canadian and Irish universities!</h4>
+      <h4>Comprehensive Services for Studying MBBS Abroad: From Admissions to Graduation, We've Got You Covered</h4>
       <div className='list'>
         {data.map((item)=>{
             const {title, desc} = item;
