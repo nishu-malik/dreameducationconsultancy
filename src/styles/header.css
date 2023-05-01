@@ -37,10 +37,23 @@ color: #373737;
     border-radius: 10px;
     color: white;
 }
+.header .nav .btn-contact a{
+    text-decoration: none;
+    color: inherit;
+}
+.header .nav .btn-contact a:hover{
+    text-decoration: none;
+    color: inherit;
+}
 .header .nav  .btn-contact:hover{
     color: #717CFF;
     background-color: white;
-    cursor: pointer;
+    cursor: pointer;   
+}
+.header .nav  .btn-contact:hover a{
+    text-decoration: none;
+    color: inherit;
+    
 }
 
 @media only screen and (max-width: 480px) {

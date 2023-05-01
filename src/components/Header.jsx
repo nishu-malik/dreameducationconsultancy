@@ -25,7 +25,7 @@ function Header() {
         <a href="#services">Our Services</a>
         {/* <a href="/">Responsibilities</a> */}
         <a href="#countries">Country</a>
-        <button type='button' className='btn-contact'>Contact</button>
+        <button type='button' className='btn-contact'><a href='#contact'> Contact</a></button>
       </div>
     </div>
   

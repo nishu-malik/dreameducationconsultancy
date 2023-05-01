@@ -15,7 +15,7 @@ function Services() {
             desc : "Providing guidance on the visa application process for studying abroad, including documentation required for successful visa application."
         },
         {
-            title : "Accodomation",
+            title : "Accommodation",
             desc : "Providing guidance on different types of accommodation options available to students, including on-campus housing, private rentals, homestays, and hostels."
         },
     ]
